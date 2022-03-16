@@ -1,0 +1,27 @@
+{
+  "name": "augusto-bisetto-001-events",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body": "^5.1.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.6",
+    "parser": "^0.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augusto-bisetto/augusto-bisetto-001-events.git"
+  },
+  "author": "augusto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/augusto-bisetto/augusto-bisetto-001-events/issues"
+  },
+  "homepage": "https://github.com/augusto-bisetto/augusto-bisetto-001-events#readme"
+}
