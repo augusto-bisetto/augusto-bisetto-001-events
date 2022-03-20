@@ -27,6 +27,13 @@ router.post('/articles/create', async (req,res) => {
   res.render('new-article', {})
 })
 
+router.post('/articles/info', async (req,res) => {
+  // modify article
+  await Article.create(req.body)
+  // console.log(req.body)
+  res.render('modify-article', {})
+})
+
 router.get('/articles/create', (req,res) => {
   res.render('new-article', {})
 })
