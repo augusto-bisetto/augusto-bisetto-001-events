@@ -16,19 +16,15 @@ app.set('view engine','ejs')
 
 // Connect to mongoDb
 const mongoDbURI = 'mongodb+srv://test:test@cluster0.sxoo5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
-// mongodb+srv://test:test@cluster0.sxoo5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 mongoose.connect(mongoDbURI)
 
 
 // Connect the Models
-require('./models/Article')
+require('./models/User.js')
 
 
 // Connect the routes
-app.use(require('./routes/frontend'))
-
-
-const frontendRoutes = require('./routes/frontend')
+app.use(require('./routes/users'))
 
 
 app.listen(3000)
